@@ -2,7 +2,8 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 body{
@@ -69,17 +70,18 @@ header{
 }
 
 .home-body h1{
-    font-size: 50px;
+    font-size: 40px;
     padding-block: 8px;
+    margin-bottom: 25px;
 }
 
 .home-body h3{
-    font-size: 25px;
+    font-size: 20px;
     color: #00abf0;
 }
 
 .home-body p{
-    font-size:20px;
+    font-size:17px;
     padding-block: 10px;
     line-height: 1.6;
 }
@@ -95,7 +97,7 @@ header{
     text-decoration: none;
     color:rgb(207, 213, 200);
     margin-right: 25px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 15px;
     display: inline-block; /* makes padding work better */
     padding: 10px 20px;
@@ -148,6 +150,7 @@ section{
 .social-icons i:hover {
   background-color: #081b29; 
   transform: scale(1.2);
+  text-shadow: 0px 0px 10px #00bcd4;
 }
 
 
